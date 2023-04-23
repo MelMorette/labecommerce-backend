@@ -1,0 +1,22 @@
+{
+  "name": "labecommerce-backend",
+  "version": "1.0.0",
+  "description": "Projeto de backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "clear && node ./index.js",
+    "serve": "clear && echo 'Hello' && node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MelMorette/labecommerce-backend.git"
+  },
+  "author": "Mellissa Morette",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MelMorette/labecommerce-backend/issues"
+  },
+  "homepage": "https://github.com/MelMorette/labecommerce-backend#readme"
+}
