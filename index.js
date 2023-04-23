@@ -1,1 +1,3 @@
-console.log("Arquivo Iniciado!");
+console.log("Aplicativo Iniciado!");
+
+console.log(process.argv[2]);
