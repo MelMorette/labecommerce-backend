@@ -4,16 +4,22 @@ export type TUser = {
     password: string
 }
 
+export enum Category {
+    ACCESSORIES = "Acessórios",
+    CLOTHES_AND_SHOES = "Roupas e calçados",
+    ELECTRONICS = "Eletrônicos"
+}
+
 export type TProduct = {
     id: string,
     name: string,
     price: number,
-    category: string
+    category: Category
 }
 
 export type TPurchase = {
     userId: string,
-    prodcutId: string,
+    productId: string,
     quantity: number,
     totalPrice: number
 }
